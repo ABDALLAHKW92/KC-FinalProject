@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#1C3879"
+    android:backgroundTint="#1C3879">
+
+    <TextView
+        android:id="@+id/StoryName3"
+        android:layout_width="171dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="120dp"
+        android:background="#16FFFFFF"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="169dp"
+        android:layout_height="84dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="23dp"
+        android:background="#16FFFFFF"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/storyimg"
+        android:layout_width="139dp"
+        android:layout_height="113dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="43dp"
+        app:shapeAppearanceOverlay="@style/circular"
+
+        app:srcCompat="@drawable/channels4_profile__1_" />
+
+</RelativeLayout>
